@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Informática 23</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos.css" />
+    <link rel="shortcut icon" href="../img/I23.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="headerContainer">
+      <div class="">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-inverse">
+              <ul class="informatica nav navbar-nav">
+                <li>
+                  <a href="../index.html" class="informatica navbar-brand">Informática 23</a>
+                </li>
+                <li>
+                  <img src="../img/I23.jpg" class="icon">
+                </li>
+              </ul>
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                  <a href="../html/quienes_somos.html">¿Quiénes somos?</a>
+                </li>
+                <li>
+                  <a href="../html/solicitar_tecnico.html">Solicitar técnico</a>
+                </li>
+                <li>
+                  <a href="../html/tienda.html">Tienda</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+      <div class="col-md-12 jumbotron">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/kQHtIli22Zo" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <div id="txtNombre"></div>
+          <div class="form-group">
+            <div id="alertNombre"></div>
+            <label for="usr">Nombre:</label>
+            <input type="text" class="form-control" id="usr" placeholder="Ej. Juan Pérez">
+          </div>
+          <div class="form-group">
+            <div id="alertEmail"></div>
+            <label for="sel1">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Ej. ejemplo@ejemplo.com">
+          </div>
+          <div id="txtApellido"></div>
+          <div class="form-group">
+            <div id="alertDireccion"></div>
+            <label for="pwd">Dirección:</label>
+            <input type="text" class="form-control" id="direccion" placeholder="Ej. Av. Italia 123">
+          </div>
+          <div id="slctPais"></div>
+          <div id="txtMensaje"></div>
+          <div class="form-group">
+            <div id="alertMensaje"></div>
+            <label for="comment">Mensaje:</label>
+            <textarea class="form-control" rows="5" id="mensaje" placeholder="Ej. Buen día, tengo una laptop con la pantalla rota. Quisiera coordinar con un técnico para la reparación, gracias."></textarea>
+          </div>
+          <button class="btn btn-success" onclick="validar()">Enviar</button>
+        </div>
+      </div>
+      <footer id="footerContainer" class="container-fluid text-center">
+      <div class="texto">
+        <div>
+          <a href="https://www.facebook.com/Infor23/" target="_blank"><img alt="siguenos en facebook" height="32" src="http://2.bp.blogspot.com/-q_Tm1PpPfHo/UiXnJo5l-VI/AAAAAAAABzU/MKdrVYZjF0c/s1600/face.png" title="Seguinos en facebook" width="32" /></a> Visita nuestra página en facebook
+        </div>
+        <p>Teléfono: 0303456</p>
+        <p>Ubicación: Avenida Siempreviva 742</p>
+        <p>Horario : Lun. a Vie. 9:00 a 12:30 - 13:30 a 18:00 hs Sabados 9 a 13:00 hs </p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/main-layout.js"></script>
+    <script type="text/javascript" src="../scripts/solicitar-tecnico.js"></script>
+  </body>
+
+</html>
+

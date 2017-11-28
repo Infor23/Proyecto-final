@@ -1,0 +1,50 @@
+#cuerpo {
+    background: #ebebeb;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+
+#footerContainer {
+    min-height: 200px;
+    background: #444
+}
+
+#footerContainer .texto {
+    margin-top: 30px;
+    color: white;
+}
+
+
+#footerContainer footer {
+    margin-top: 30px;
+    color: white;
+}
+
+#footerContainer #userStatus {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.row{
+    color: white;
+}
+
+.nav{
+    float: right;
+}
+.informatica{
+    float: left;
+    font-size: 1.5em;
+}
+.icon{
+    height: 2em;
+    width: auto;
+    margin-top: 5px;
+    float: right;
+    position: fixed;
+}
+
+div #producto{
+    color: black;
+}

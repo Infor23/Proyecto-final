@@ -1,0 +1,131 @@
+var data = {
+	"productos": [
+		{	
+			"marca":"Dell",
+			"nombre":"Cable HDMI",
+			"precio": 15,
+			"detalle": "1,5ms de largo, super resistente.",
+			"imagen":"https://sgcdn.startech.com/005329/media/products/gallery_large/HDMM1MP.bom.jpg", 
+		},{	
+			"marca":"Toshiba",
+			"nombre":"Laptop",
+			"precio": 850,
+			"detalle": "16gb ram, 1 Tera disco solido.",
+			"imagen":"https://http2.mlstatic.com/laptop-toshiba-satellite-i3-4010u-500gb4gb-pantalla-touch-D_NQ_NP_673245-MPE25707725336_062017-O.jpg",
+		},{
+			"marca":"Samsung",
+			"nombre":"Celular",
+			"precio": 500,
+			"detalle": "Galaxy, 4gb memoria ram, Android.",
+			"imagen":,
+		},{
+			"marca":"Lenovo",
+			"nombre":"Monitor",
+			"precio": 150,
+			"detalle":"Full hd, 22'pulgadas.",
+			"imagen":,
+		},{
+			"marca":"Epson",
+			"nombre":"Impresora",
+			"precio": 99,
+			"detalle":"Rbg, Wifi.",
+			"imagen":,
+		},{
+			"marca":"Tp-Link",
+			"nombre":"Router",
+			"precio": 30,
+			"detalle": "200mbps,.",
+			"imagen":"",
+		},{
+			"marca":"Dell",
+			"nombre":"Torre",
+			"precio": 1500,
+			"detalle": "Potente alienware, procesador i7, 32gb memoria ram, 2 tera disco solido.",
+			"imagen":"https://bluephaze24x7.files.wordpress.com/2010/04/alienwarearea51alx.jpg",
+		},{
+			"marca":"Apple",
+			"nombre":"Mouse",
+			"precio": 89,
+			"detalle":"inhalambrico, dpi 500-3000.",
+			"imagen":,
+		},{
+			"marca":"Asus",
+			"nombre":"Laptop",
+			"precio": 1250,
+			"detalle": "Asus Rog, procesador i5 muy potente con sus 16 gb de memoria ram.",
+			"imagen":,
+		},{
+			"marca":"Apple",
+			"nombre":"Auriculares",
+			"precio": 30,
+			"detalle": "Auriculares apple originales.",
+			"imagen":,
+		},{
+			"marca":"Apple",
+			"nombre":"Mac",
+			"precio": 1890,
+			"detalle":"2017, ideal para trabajar.",
+			"imagen":,
+		},{
+			"marca":"Olidata",
+			"nombre":"Laptop",
+			"precio": 900,
+			"detalle": "Procesador i5, 8gb de ram ,500gb de disco solido",
+			"imagen":,
+		},{
+			"marca":"Microsoft",
+			"nombre":"Widnows 10",
+			"precio": 80,
+			"detalle": "Sistema operativo original",
+			"imagen":,
+		},{
+			"marca":"Samsung",
+			"nombre":"Galaxy Note 8",
+			"precio": 1500,
+			"detalle": "8gb de ram ,64gb de memoria",
+			"imagen":,
+		},{
+			"marca":"Samsung",
+			"nombre":"Monitor",
+			"precio": 350,
+			"detalle": "Monitor 4k, 144hz",
+			"imagen":,
+		},{
+			"marca":"Dell",
+			"nombre":"Laptop",
+			"precio": 1900,
+			"detalle": "Procesador i7, 16gb de ram ,500gb de disco solido",
+			"imagen":,
+		},{
+			"marca":"Olidata",
+			"nombre":"Torre",
+			"precio": 550,
+			"detalle": "Procesador i3, 4gb de ram ,500gb de disco solido",
+			"imagen":,
+		},{
+			"marca":"Apple",
+			"nombre":"iphone",
+			"precio": 1300,
+			"detalle":"iPhone 8, 32gb de espacio, camara de 13mpx",
+			"imagen":,
+		},{
+			"marca":"Lenovo",
+			"nombre":"Laptop",
+			"precio": 850,
+			"detalle": "Procesador i5, 8gb de ram ,500gb de disco solido",
+			"imagen":,
+		},{
+			"marca":"Samsung",
+			"nombre":"Auriculares",
+			"precio": 30,
+			"detalle": "Originales",
+			"imagen":,
+		},{
+			"marca":"Olidata",
+			"nombre":"Laptop",
+			"precio": 900,
+			"detalle": "Procesador i5, 8gb de ram ,500gb de disco solido",
+			"imagen":,
+		}
+	]
+};
